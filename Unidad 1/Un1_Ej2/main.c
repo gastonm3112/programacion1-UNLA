@@ -13,9 +13,9 @@ int main()
     printf("Ingresa numero 2:\n");
     scanf("%d", &num2);
 
-    result = num1 / num2;
+    result = ((float) num1)/ ((float) num2);
 
-    printf("El resultado de la division de %d y %d es: %f", num1, num2, result);
+    printf("El resultado de la division de %d y %d es: %.2f", num1, num2, result);
 
 
     return 0;
